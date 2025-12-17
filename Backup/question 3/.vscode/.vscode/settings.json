@@ -1,0 +1,9 @@
+{
+  "notebook.output.textLineLimit": 1000,
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "jupyter.saveOnCellExecution": true,
+  "jupyter.askToKernel": "never"
+}
+

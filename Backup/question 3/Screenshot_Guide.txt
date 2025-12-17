@@ -1,0 +1,82 @@
+SCREENSHOT INSERTION GUIDE
+==========================
+
+This guide lists all the locations in the Word document where screenshots should be inserted.
+The placeholders in the document are marked with [INSERT SCREENSHOT: ...]
+
+1. SECTION 2.2 - Dataset Overview
+   Location: After the dataset statistics table
+   Screenshot: Class Distribution Bar Chart
+   Description: Bar chart showing distribution of articles across 5 categories (business, entertainment, politics, sport, tech)
+   Source: Cell 6 output - Class distribution visualization
+
+2. SECTION 3.1 - Data Loading
+   Location: After category distribution list
+   Screenshot: Sample Articles Display
+   Description: Showing 5 sample articles with their labels
+   Source: Cell 6 output - Sample articles printout
+
+3. SECTION 4.1.2 - ML Model Results
+   Location: After the classification report table
+   Screenshot: Confusion Matrix for ML Model
+   Description: Heatmap showing classification results for Logistic Regression model
+   Source: Cell 19 output - Confusion matrix visualization
+
+4. SECTION 4.2.2 - DL Training Configuration
+   Location: After training parameters table
+   Screenshot: Training Curves
+   Description: Accuracy and Loss plots showing training progress over 20 epochs
+   Source: Cell 25 output - Training history plots
+
+5. SECTION 4.2.3 - DL Model Results
+   Location: After the classification report table
+   Screenshot: Confusion Matrix for DL Model
+   Description: Heatmap showing classification results for CNN model
+   Source: Cell 27 output - Confusion matrix visualization
+
+6. SECTION 5.2 - K-Means Clustering
+   Location: After cluster distribution table
+   Screenshot: K-Means Clusters Visualization
+   Description: PCA projection showing cluster distribution in 2D space
+   Source: Cell 33 output - PCA scatter plot
+
+7. SECTION 5.3 - Cluster-Category Analysis
+   Location: After cluster-category analysis text
+   Screenshot: Cluster-Category Cross-tabulation Table
+   Description: Table showing distribution of categories within each cluster
+   Source: Cell 33 output - Cross-tabulation table (can be a screenshot of the printed table)
+
+8. SECTION 6.4 - Q-Learning Training
+   Location: After training progress description
+   Screenshot: Q-Learning Training Progress
+   Description: Plot showing reward progression over 1,200 episodes with moving average
+   Source: Cell 49 or Cell 50 output - Training progress plot
+
+9. SECTION 6.6 - Action Distribution
+   Location: After action distribution table
+   Screenshot: RL Action Distribution
+   Description: Bar chart showing action selection frequency (ML, DL, Escalate)
+   Source: Cell 52 output - Action distribution bar chart
+
+INSTRUCTIONS FOR INSERTING SCREENSHOTS:
+========================================
+
+1. Open the generated Word document: News_Classification_Report.docx
+
+2. For each [INSERT SCREENSHOT: ...] placeholder:
+   a. Run the corresponding notebook cell to generate the visualization
+   b. Take a screenshot or save the figure
+   c. In Word, delete the placeholder text
+   d. Insert the screenshot/image at that location
+   e. Add a caption below the image (e.g., "Figure 1: Class Distribution of News Articles")
+
+3. Ensure all screenshots are:
+   - High resolution and clear
+   - Properly sized to fit the page width
+   - Centered on the page
+   - Have descriptive captions
+
+4. Recommended image format: PNG or JPG
+
+5. If you have saved figures from the notebook, you can insert them directly instead of taking screenshots.
+
